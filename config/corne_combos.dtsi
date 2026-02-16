@@ -1,0 +1,47 @@
+/ {
+    combos {
+        compatible = "zmk,combos";
+        
+        combo_ae {
+            timeout-ms = <40>;
+            key-positions = <13 14>;  // a+r
+            bindings = <&uc 0xE4 0xC4>;  // ä/Ä
+            layers = <0>;
+        };
+        
+        combo_oe {
+            timeout-ms = <40>;
+            key-positions = <22 21>;  // o+i
+            bindings = <&uc 0xF6 0xD6>;  // ö/Ö
+            layers = <0>;
+        };
+        
+        combo_ue {
+            timeout-ms = <40>;
+            key-positions = <8 9>;  // u+y
+            bindings = <&uc 0xFC 0xDC>;  // ü/Ü
+            layers = <0>;
+        };
+        
+        combo_sz {
+            timeout-ms = <40>;
+            key-positions = <15 16>;  // s+t
+            bindings = <&uc 0xDF 0>;  // ß (no uppercase, use 0)
+            layers = <0>;
+        };
+        
+        combo_euro {
+            timeout-ms = <40>;
+            key-positions = <20 14>;  // e+r
+            bindings = <&uc 0x20AC 0>;  // €
+            layers = <0>;
+        };
+        
+        combo_paragraph {
+            timeout-ms = <40>;
+            key-positions = <4 14>;  // p+r
+            bindings = <&uc 0xA7 0>;  // §
+            layers = <0>;
+        };
+    };
+};
