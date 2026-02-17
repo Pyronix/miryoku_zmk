@@ -33,7 +33,7 @@
         combo_euro {
             timeout-ms = <40>;
             key-positions = <20 14>;  // e+r
-            bindings = <&kp RA(5)>;  // €
+            bindings = <&kp RA(N5)>;  // €
             layers = <0>;
         };
     };
