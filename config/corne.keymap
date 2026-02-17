@@ -5,10 +5,4 @@
 #include "../miryoku/mapping/42/corne.h"
 #include "../miryoku/miryoku.dtsi"
 
-#include <behaviors/unicode.dtsi>
-
-&uc {
-    default-mode = <UC_MODE_LINUX>;  // Change as needed
-};
-
 #include "corne_combos.dtsi"
